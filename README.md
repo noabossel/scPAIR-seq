@@ -10,7 +10,7 @@ The pipeline contains two parts:
 
 # PART 1 – single cell bacterial library:
 
-install_packages.R: contains the relevant packages for this part.
+install_packages.R: contains the relevant packages for this procedure.
 
 generate_MIB_matrix.R: gets as input R1 and R2 fastq files (e.g., ex_R1.fastq and ex_R2.fastq), and generates a MIB count matrix (i.e. number of reads classified to each bacterial mutant in each cell).
 
